@@ -1,3 +1,28 @@
+
+## Set up steps for noobs
+
+Open terminal, go to the folder you want to save this repository in
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+run:
+### `npm install`
+
+cd into src
+
+run the following commands:
+### `npm install cookie-parser`
+### `npm install querystring`
+### `npm install cors`
+### `npm install request`
+### `npm install express`
+
+once that works run:
+### `npm start`
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
