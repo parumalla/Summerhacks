@@ -5,7 +5,7 @@ Open terminal, go to the folder you want to save this repository in
 
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
-run:
+cd into is and run:
 ### `npm install`
 
 cd into src
@@ -19,6 +19,9 @@ run the following commands:
 
 once that works run:
 ### `npm start`
+
+in url bad, go to:
+### `http://localhost:8888/`
 
 
 
