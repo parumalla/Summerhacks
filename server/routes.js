@@ -6,9 +6,9 @@ const express = require('express');
 const router = new express.Router();
 
 // configure the express server
-const CLIENT_ID = process.env.client_id;
-const CLIENT_SECRET = process.env.client_secret;
-const REDIRECT_URI = process.env.redirect_uri || 'http://localhost:3000/callback';
+const CLIENT_ID = process.env.client_id || '80aca4d8ee804b508a0a727faeec8692';
+const CLIENT_SECRET = process.env.client_secret || '80beba2299a34f59997c106ad8822952';
+const REDIRECT_URI = process.env.redirect_uri || 'http://localhost:8888/callback';
 const STATE_KEY = 'spotify_auth_state';
 // your application requests authorization
 const scopes = ['user-read-private', 'user-read-email'];
